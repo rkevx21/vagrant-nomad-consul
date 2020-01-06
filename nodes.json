@@ -1,0 +1,22 @@
+{
+  "nodes": {
+    "node1-cluster.local": {
+      ":ip": "192.168.56.30",
+      "ports": [],
+      ":memory": 1024,
+      ":bootstrap": "bootstrap.sh"
+    },
+    "node2-cluster.local": {
+      ":ip": "192.168.56.35",
+      "ports": [],
+      ":memory": 1024,
+      ":bootstrap": "bootstrap.sh"
+    },
+    "node3-cluster.local": {
+      ":ip": "192.168.56.40",
+      "ports": [],
+      ":memory": 1024,
+      ":bootstrap": "bootstrap.sh"
+    }
+  }
+}
